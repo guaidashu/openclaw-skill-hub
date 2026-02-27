@@ -1,0 +1,35 @@
+{
+  "github": {
+    "repo_owner": "guaidashu",
+    "repo_name": "openclaw-skill-hub",
+    "api_token": "",
+    "use_api": false,
+    "auto_create_pr": true,
+    "default_branch": "main"
+  },
+  "validation": {
+    "strict_mode": true,
+    "check_dependencies": true,
+    "max_size_mb": 10,
+    "required_files": ["SKILL.md"],
+    "recommended_files": ["README.md", "package.json"]
+  },
+  "packaging": {
+    "output_dir": "./packages",
+    "create_package_json": true,
+    "include_hidden_files": false,
+    "exclude_patterns": [".git", "node_modules", "*.tmp", "*.log"]
+  },
+  "submission": {
+    "prefer_manual": false,
+    "generate_guide": true,
+    "dry_run_first": true,
+    "backup_before_submit": true
+  },
+  "logging": {
+    "level": "info",
+    "file": "./logs/submission.log",
+    "max_size_mb": 10,
+    "keep_days": 7
+  }
+}
