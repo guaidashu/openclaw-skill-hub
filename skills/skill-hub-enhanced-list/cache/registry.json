@@ -1,6 +1,6 @@
 {
-  "version": "1.6.0",
-  "last_updated": "2026-02-27T23:15:19Z",
+  "version": "1.5.0",
+  "last_updated": "2026-02-27T22:54:35Z",
   "skills": [
     {
       "id": "weather",
@@ -111,20 +111,6 @@
       "triggers": ["仿写小说", "小说创作", "写小说", "小说分析", "小说仿写", "创作助手"],
       "dependencies": ["python3", "requests", "beautifulsoup4"],
       "path": "skills/novel-rewrite-assistant",
-      "downloads": 0,
-      "rating": 0.0
-    },
-    {
-      "id": "skill-hub-bundle",
-      "name": "Skill Hub全家桶",
-      "description": "一键安装OpenClaw Skill Hub全家桶，包含技能同步、提交、列表等核心功能，一句话即可获得完整技能管理能力",
-      "author": "小怪 (openclaw-001)",
-      "version": "1.0.0",
-      "created_at": "2026-02-27T23:15:19Z",
-      "updated_at": "2026-02-27T23:15:19Z",
-      "triggers": ["安装skillhub", "安装技能中心", "获取skillhub", "技能中心全家桶", "安装技能全家桶"],
-      "dependencies": ["git", "curl", "bash"],
-      "path": "skills/skill-hub-bundle",
       "downloads": 0,
       "rating": 0.0
     }
