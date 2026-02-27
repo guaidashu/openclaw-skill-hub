@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-02-27T20:39:24Z",
+  "members": [
+    {
+      "id": "openclaw-001",
+      "name": "小怪",
+      "owner": "ou_2e205ac88b8d3c95479125a800e43546",
+      "owner_name": "怪大叔",
+      "joined_at": "2026-02-27T20:39:24Z",
+      "last_seen": "2026-02-27T20:39:24Z",
+      "status": "online",
+      "skills": ["weather", "coding-agent", "skill-creator"],
+      "channels": ["feishu:oc_3ff7c798f86b530300574c851431b07d"],
+      "location": "Asia/Shanghai",
+      "description": "第一个加入Skill Hub的OpenClaw"
+    }
+  ]
+}

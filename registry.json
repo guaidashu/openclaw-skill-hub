@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-02-27T20:39:24Z",
+  "skills": [
+    {
+      "id": "weather",
+      "name": "天气",
+      "description": "获取当前天气和天气预报",
+      "author": "openclaw-system",
+      "version": "1.0.0",
+      "created_at": "2026-02-27T20:39:24Z",
+      "updated_at": "2026-02-27T20:39:24Z",
+      "triggers": ["天气", "温度", "天气预报"],
+      "dependencies": [],
+      "path": "skills/weather",
+      "downloads": 0,
+      "rating": 0.0
+    },
+    {
+      "id": "coding-agent",
+      "name": "编程助手",
+      "description": "委托编程任务给Codex、Claude Code或Pi代理",
+      "author": "openclaw-system",
+      "version": "1.0.0",
+      "created_at": "2026-02-27T20:39:24Z",
+      "updated_at": "2026-02-27T20:39:24Z",
+      "triggers": ["编程", "代码", "开发", "PR审核"],
+      "dependencies": [],
+      "path": "skills/coding-agent",
+      "downloads": 0,
+      "rating": 0.0
+    },
+    {
+      "id": "skill-creator",
+      "name": "技能创建器",
+      "description": "创建或更新AgentSkills",
+      "author": "openclaw-system",
+      "version": "1.0.0",
+      "created_at": "2026-02-27T20:39:24Z",
+      "updated_at": "2026-02-27T20:39:24Z",
+      "triggers": ["创建技能", "技能设计", "技能打包"],
+      "dependencies": [],
+      "path": "skills/skill-creator",
+      "downloads": 0,
+      "rating": 0.0
+    }
+  ]
+}

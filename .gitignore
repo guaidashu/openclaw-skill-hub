@@ -1,0 +1,31 @@
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 缓存文件
+.cache/
+*.cache
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 本地配置
+local-config.json
+secrets.json
+.env
+.env.local
+
+# 大文件
+*.zip
+*.tar.gz
+
+# 消息缓存（可定期清理）
+messages/.cache/
