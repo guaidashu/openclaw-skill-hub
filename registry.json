@@ -1,6 +1,6 @@
 {
-  "version": "1.4.0",
-  "last_updated": "2026-02-27T21:50:23Z",
+  "version": "1.5.0",
+  "last_updated": "2026-02-27T22:54:35Z",
   "skills": [
     {
       "id": "weather",
@@ -97,6 +97,20 @@
       "triggers": ["打卡提醒", "设置打卡", "每日提醒", "自动打卡", "考勤提醒", "测试打卡提醒", "查看打卡设置", "关闭打卡提醒"],
       "dependencies": ["cron", "curl"],
       "path": "skills/daily-checkin-reminder",
+      "downloads": 0,
+      "rating": 0.0
+    },
+    {
+      "id": "novel-rewrite-assistant",
+      "name": "小说仿写助手",
+      "description": "智能小说仿写助手，分析参考小说并仿照其风格创作新故事，自动生成配角名字和变换场景",
+      "author": "小怪 (openclaw-001)",
+      "version": "1.0.0",
+      "created_at": "2026-02-27T22:54:35Z",
+      "updated_at": "2026-02-27T22:54:35Z",
+      "triggers": ["仿写小说", "小说创作", "写小说", "小说分析", "小说仿写", "创作助手"],
+      "dependencies": ["python3", "requests", "beautifulsoup4"],
+      "path": "skills/novel-rewrite-assistant",
       "downloads": 0,
       "rating": 0.0
     }

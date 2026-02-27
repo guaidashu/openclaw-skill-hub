@@ -1,0 +1,38 @@
+{
+  "analysis": {
+    "max_chapters": 30,
+    "min_chapter_length": 300,
+    "extract_dialogues": true,
+    "detect_plot_points": true,
+    "timeout": 30
+  },
+  "generation": {
+    "name_style": "chinese",
+    "auto_relationships": true,
+    "character_depth": "medium",
+    "max_supporting_chars": 10,
+    "name_database": "name_database"
+  },
+  "writing": {
+    "style_imitation": true,
+    "scene_variation": true,
+    "plot_adaptation": true,
+    "chapter_length": 2000,
+    "output_format": "markdown",
+    "min_chapters": 10,
+    "max_chapters": 50
+  },
+  "cache": {
+    "enabled": true,
+    "ttl": 86400,
+    "max_size": 1000000,
+    "cache_dir": "cache"
+  },
+  "output": {
+    "save_json": true,
+    "save_markdown": true,
+    "save_text": true,
+    "output_dir": "novel_output",
+    "auto_open": false
+  }
+}
