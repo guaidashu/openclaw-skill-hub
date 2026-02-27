@@ -1,0 +1,18 @@
+{
+  "repo_url": "https://github.com/guaidashu/openclaw-skill-hub.git",
+  "local_skill_dir": "~/.openclaw/extensions/skill-hub",
+  "sync_interval": 3600,
+  "auto_update": true,
+  "log_level": "info",
+  "max_retries": 3,
+  "retry_delay": 5,
+  "notify_on_update": true,
+  "exclude_skills": [],
+  "include_skills": ["*"],
+  "proxy": "",
+  "timeout": 30,
+  "concurrent_downloads": 3,
+  "validate_signatures": false,
+  "backup_before_update": true,
+  "cleanup_after_days": 7
+}
