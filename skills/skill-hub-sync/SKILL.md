@@ -45,8 +45,10 @@
 
 ## 文件结构
 - `SKILL.md` - 本文件
-- `sync.sh` - 同步脚本
+- `sync.sh` - 完整同步脚本（需要jq）
+- `sync-simple.sh` - 简化版同步脚本（不需要jq）
 - `config.json` - 配置文件
+- `test-sync.sh` - 测试脚本
 - `cache/` - 缓存目录
 
 ## 配置说明
